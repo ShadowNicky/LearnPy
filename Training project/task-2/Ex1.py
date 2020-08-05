@@ -1,0 +1,15 @@
+a = input('Введите первое число: ')
+b = input('Введите второе число: ')
+try:
+    a = int(a)
+    b = int(b)
+    z=input('Введите знак действия (+ - * / ):')
+    if z=='+':print(a,'+',b,'=',a+b)
+    elif z=='-':print(a,'-',b,'=',a-b)
+    elif z=='*':print(a,'*',b,'=',a*b)
+    elif z=='/':print(a,'/',b,'=',a/b)
+    else:print('Вы ввели неверный знак!')
+    input()
+except:
+    print('Вы ввели неверные значения!')
+    input()
